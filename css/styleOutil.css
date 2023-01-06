@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS document */
+
+/* Structure de l'interface */
+*{box-sizing:border-box;}
+
+html,
+body
+{
+    height: 100vh;
+    margin: 0; 
+    background: linear-gradient(to top, #0b0418, #45469c,#0b0418);
+}
+#container{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-content: center;
+}
+.content{
+    display: flex;
+    gap: 5em;
+    font-weight: 100%;
+}
+.webgl{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+/* Texts */
+h1{
+    font-size: 4em;
+    width: 50%;
+    line-height: 97%;
+    text-align: right;
+}
+p{
+   font-size: 1.3em;
+   width: 40vw; 
+}
+
+/*Bouton*/
+button{
+
+    border: 0;
+    padding: 10px;
+    border-radius: 50px;
+    margin-top : 16px;
+    margin-left: 100px;
+    color: white;
+    cursor: pointer;
+}
+#orange{
+    background: linear-gradient(to top, #d68100, #ff9900, #d68100);
+}
+#red{
+    background-color: #ce0c0c;
+}
+#pink{
+    background-color: #ff0077;
+}
+#blue{
+    background-color: #400cce;
+}
+#green{
+    background-color: #0CCE6B;
+}
+#genNew{
+    background: linear-gradient(to top, #cf9e5d,#61cf5d,#5dcfcf, #5259b4, #8052b4,#b45288,#b45267);
+}
